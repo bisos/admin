@@ -1,0 +1,8 @@
+
+* Traditional Users:: Right in here, just run:
+
+packer init debian-12.4.0-amd64.pkr.hcl
+packer build -var "headless=true" debian-12.4.0-amd64.pkr.hcl
+vagrant box add ../../builds/debian-12.4.0-desktop.libvirt.box --name "bxDistro/debian-12.4.0/desktop"
+
+* ByStar User:: run lcaVagrantBoxBuild.sh
