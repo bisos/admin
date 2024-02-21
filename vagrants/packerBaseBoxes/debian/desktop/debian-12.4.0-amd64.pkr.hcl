@@ -18,7 +18,7 @@ variable "box_basename" {
 
 variable "build_directory" {
   type    = string
-  default = "../../builds"
+  default = "/bisos/var/vagrant/builds"
 }
 
 variable "cpus" {
