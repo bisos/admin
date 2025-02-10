@@ -1,0 +1,18 @@
+#+title: Readme -- Place Holder
+
+<2025-02-03 Mon 13:18>
+
+These are static objects for two purposes:
+
+1) In the RawBisos Construction Phase
+
+   1.1) Generic Platform points to pmp_genericPlatform-1
+   1.2) Generic Site points to pis_genericPlatform-1
+   1.3) Generic Usage Environment points to piu_genericUsage-1
+
+   These get pointed to as /bisos/platform /bisos/site and ~/bpo/usageEnv/selected
+
+2) During the site construction phase
+
+   2.1) Initial Host
+   2.2) Initial VMs
